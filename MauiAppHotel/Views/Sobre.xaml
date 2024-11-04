@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.Views.Sobre"
+             Title="Sobre"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="LightSlateGray">
+    
+    <VerticalStackLayout>
+        
+        <Label 
+            
+            Text="Sobre o Software"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            FontFamily="Skbold"
+            FontSize="Header"/>
+
+    <Frame BackgroundColor="Gray" BorderColor="DarkGreen" Margin="10">
+        <VerticalStackLayout>
+
+            <Label Text="Desenvolvedor: "
+                   
+                   FontFamily="Skregular"
+                   FontSize="20"/>
+                   
+
+            <Label Text="Fidel Castro"
+                   Padding="10"
+                   FontFamily="Skregular"/>
+
+            <Label Text="03/11/2024"
+                   FontFamily="Skregular"
+                   Padding="10"/>
+            
+            
+            <Label Text="DSETEC 2024"
+                FontFamily="Skregular"/>
+
+
+
+            </VerticalStackLayout>
+
+    </Frame>
+
+        <Frame BackgroundColor="Gray" BorderColor="DarkOliveGreen" Margin="10" >
+            <VerticalStackLayout>
+
+                <Label Text=" Agradecimentos "
+               FontFamily="Skregular"
+               FontSize="20"/>
+
+
+                <Label Text="Guilherme Henrique"
+               Padding="10"
+               FontFamily="Skregular"/>
+
+                <Label Text="Tatiana Carla"
+                Padding="10"
+                FontFamily="Skregular"/>
+
+
+                <Label Text="Vinicius França"
+                Padding="10"
+                FontFamily="Skregular"/>
+
+                <Label Text="Tiago Silva"
+                 Padding="10"
+                 FontFamily="Skregular"/>
+
+
+            </VerticalStackLayout>
+
+        </Frame>
+
+    </VerticalStackLayout>
+</ContentPage>
