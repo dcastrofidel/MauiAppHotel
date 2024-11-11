@@ -4,80 +4,95 @@
              x:Class="MauiAppHotel.Views.Sobre"
              Title="Sobre"
              NavigationPage.HasNavigationBar="False"
-             BackgroundColor="LightSlateGray">
-    
-    <VerticalStackLayout>
-        
+             BackgroundColor="{StaticResource Gray100}">
+
+    <VerticalStackLayout VerticalOptions="CenterAndExpand" Padding="10" Spacing="10">
+
         <Label 
-            
             Text="Sobre o Software"
+            TextColor="Black"
             VerticalOptions="Center" 
             HorizontalOptions="Center"
             FontFamily="Skbold"
             FontSize="Header"/>
 
-    <Frame BackgroundColor="Gray" BorderColor="DarkGreen" Margin="10">
-        <VerticalStackLayout>
-
-            <Label Text="Desenvolvedor: "
-                   
-                   FontFamily="Skregular"
-                   FontSize="20"/>
-                   
-
-            <Label Text="Fidel Castro"
-                   Padding="10"
-                   FontFamily="Skregular"/>
-
-            <Label Text="03/11/2024"
-                   FontFamily="Skregular"
-                   Padding="10"/>
-            
-            
-            <Label Text="DSETEC 2024"
-                FontFamily="Skregular"/>
-
-
-
-            </VerticalStackLayout>
-
-    </Frame>
-
-        <Frame BackgroundColor="Gray" BorderColor="DarkOliveGreen" Margin="10" >
+        <Frame Padding="10" BackgroundColor="{StaticResource MidnightBlue}">
             <VerticalStackLayout>
+                <Frame BackgroundColor="CadetBlue"  Margin="10" >
+                    <VerticalStackLayout>
 
-                <Label Text=" Agradecimentos "
-               FontFamily="Skregular"
-               FontSize="20"/>
-
-
-                <Label Text="Guilherme Henrique"
-               Padding="10"
-               FontFamily="Skregular"/>
-
-                <Label Text="Tatiana Carla"
-                Padding="10"
-                FontFamily="Skregular"/>
+                        <Label Text=" Desenvolvedor "
+                         FontFamily="Skregular"
+                         FontSize="20"/>
 
 
-                <Label Text="Vinicius França"
-                Padding="10"
-                FontFamily="Skregular"/>
+                        <Label Text="Fidel Castro Garcia Macedo"
+                         Padding="10"
+                         FontFamily="Skregular"/>
 
-                <Label Text="Tiago Silva"
-                 Padding="10"
-                 FontFamily="Skregular"/>
+                        <Label Text="10/11/2024"
+                         Padding="10"
+                         FontFamily="Skregular"/>
 
+
+                        <Label Text="DSETEC24"
+                         Padding="10"
+                         FontFamily="Skregular"/>
+
+
+
+
+                    </VerticalStackLayout>
+
+                </Frame>
+
+
+
+
+
+
+
+                <Frame BackgroundColor="CadetBlue"  Margin="10" >
+                    <VerticalStackLayout>
+
+                        <Label Text=" Agradecimentos "
+                         FontFamily="Skregular"
+                         FontSize="20"/>
+
+
+                        <Label Text="Guilherme Henrique"
+                         Padding="10"
+                         FontFamily="Skregular"/>
+
+                        <Label Text="Tatiana Carla"
+                         Padding="10"
+                         FontFamily="Skregular"/>
+
+
+                        <Label Text="Vinicius França"
+                         Padding="10"
+                         FontFamily="Skregular"/>
+
+                        <Label Text="Tiago Silva"
+                         Padding="10"
+                         FontFamily="Skregular"/>
+
+
+                    </VerticalStackLayout>
+
+                </Frame>
+
+                  <Button        
+                   Text="Voltar"  
+                   BackgroundColor="CadetBlue"
+                   TextColor="White"
+                   Margin="10"
+                   Clicked="Button_Clicked_1"/>
 
             </VerticalStackLayout>
-
+            
         </Frame>
-
-        <Button Text="Voltar"  
-        BackgroundColor="Black"
-        TextColor="White"
-        Margin="10"
-        Clicked="Button_Clicked_1"/>
-
+        
     </VerticalStackLayout>
+    
 </ContentPage>

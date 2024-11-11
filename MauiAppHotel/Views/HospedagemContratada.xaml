@@ -14,50 +14,54 @@
                FontSize="50"
                HorizontalTextAlignment="Center"/>
 
+        <Frame Padding="10" BackgroundColor="{StaticResource MidnightBlue}">
+            <VerticalStackLayout>
+                <Frame Margin="10" BackgroundColor="CadetBlue">
+                    <VerticalStackLayout>
 
-        <Frame Margin="10" BackgroundColor="CadetBlue">
-            <HorizontalStackLayout>
+                        <HorizontalStackLayout>
+                            <Label Text="Adultos:"/>
+                            <Label Text="2" TextColor="{StaticResource White}"/>
+                        </HorizontalStackLayout>
 
-                <HorizontalStackLayout>
-                    <Label Text="Adultos:"/>
-                    <Label Text="2" TextColor="{StaticResource White}"/>
-                </HorizontalStackLayout>
+                        <HorizontalStackLayout>
+                            <Label Text="Crianças: "/>
+                            <Label Text="2" TextColor="{StaticResource White}"/>
+                        </HorizontalStackLayout>
 
-                <HorizontalStackLayout>
-                    <Label Text="Crianças: "/>
-                    <Label Text="2" TextColor="{StaticResource White}"/>
-                </HorizontalStackLayout>
+                    </VerticalStackLayout>
+                </Frame>
 
-            </HorizontalStackLayout>
-        </Frame>
+                <Frame Margin="10" BackgroundColor="CadetBlue">
 
-        <Frame Margin="10" BackgroundColor="CadetBlue">
-
-            <Grid ColumnDefinitions="*, *, *"
+                    <Grid ColumnDefinitions="*, *, *"
                   RowDefinitions="Auto, Auto">
-                <Label Grid.Row="0" Grid.Column="0" Text="Check-in"/>
-                <Label Grid.Row="0" Grid.Column="1" Text="Check-out"/>
-                <Label Grid.Row="0" Grid.Column="2" Text="Estadia"/>
+                        <Label Grid.Row="0" Grid.Column="0" Text="Check-in"/>
+                        <Label Grid.Row="0" Grid.Column="1" Text="Check-out"/>
+                        <Label Grid.Row="0" Grid.Column="2" Text="Estadia"/>
 
-                <Label Grid.Row="1" Grid.Column="0" Text="10/11/24"/>
-                <Label Grid.Row="1" Grid.Column="1" Text="10/12/24"/>
-                <Label Grid.Row="1" Grid.Column="2" Text="30"/>
+                        <Label Grid.Row="1" Grid.Column="0" Text="10/11/24"/>
+                        <Label Grid.Row="1" Grid.Column="1" Text="10/12/24"/>
+                        <Label Grid.Row="1" Grid.Column="2" Text="30"/>
 
-            </Grid>
-        </Frame>
+                    </Grid>
+                </Frame>
 
-        <Frame Margin="10" BackgroundColor="CadetBlue">
+                <Frame Margin="10" BackgroundColor="CadetBlue">
 
-            <HorizontalStackLayout>
-                <Label Text="Valor Total: "/>
-                <Label Text="R$ 750,00"/>
-            </HorizontalStackLayout>
+                    <HorizontalStackLayout>
+                        <Label Text="Valor Total: "/>
+                        <Label Text="R$ 750,00"/>
+                    </HorizontalStackLayout>
 
-        </Frame>
+                </Frame>
 
-        <Button Text="Voltar" TextColor="White" BackgroundColor="CadetBlue"
+                <Button Text="Voltar"  TextColor="White" BackgroundColor="CadetBlue"
                 HorizontalOptions="Center"
                 Clicked="Button_Clicked"/>
 
+
+            </VerticalStackLayout>
+        </Frame>
     </VerticalStackLayout>
 </ContentPage>

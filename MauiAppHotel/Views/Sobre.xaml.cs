@@ -21,4 +21,6 @@ public partial class Sobre : ContentPage
 
         }
     }
+
+
 }
